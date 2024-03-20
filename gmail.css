@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F6F8FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav svg {
+    margin: 0 30px; 
+    /* Adjusted margin for both icons */
+}
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav svg:nth-last-of-type(1){
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav svg:hover{
+    background: #C2E7ff ;
+
+}
+nav div{
+    background: #eaf1fb;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 100px;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+}
+nav div input{
+    border: none;
+    margin-left: 0px;
+    background: transparent;
+    align-items: center;
+    font-size: 100%;
+    width: 35vw;
+
+}
+nav div input:focus{
+    outline: none;
+}
+.nav-svg{
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-svg:hover{
+    background: #C2E7FF;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+}
+main{
+    display:flex;
+}
+.left-sidebar{
+    display: inline-block;
+    width: 17.5vw;
+    height:90vh;
+}
+.window{
+    display: inline-block;
+    border-radius: 20px;
+    background: white;
+    height:90vh;
+    width:78vw;
+}
+.left-sidebar button{
+    background:#c2e7ff;
+    padding:18px 28px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    margin-top:20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.left-sidebar button:hover{
+    box-shadow: 5px 5px 10px silver ;
+}
+.tab{
+    padding: 5px 0;
+    cursor: pointer;
+    width:90%;
+    display: flex;
+    border-radius: 0 20px 20px 0;
+}
+.tab:hover{
+  background: silver;
+}
+.tab svg{
+    margin-left:20px;
+
+}
+.tab p{
+    margin-left:30px;
+}
+#window-top{
+    margin-left:20px;
+    margin-top:15px;
+}
+#window-tip input{
+    margin-left:10px;
+}
+#window-top svg{
+    margin-right:15px;
+
+}
+.nav-tab{
+    margin-top: 20px;
+    width: 15vw;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1px;
+    /*background: whitesmoke;*/
+}
+.nav-tab:hover{
+    background: rgb(230, 230, 230);
+}
+.nav-tab svg{
+    margin-left: 30px;
+
+}
+.message{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-top: solid silver 1px ;
+    border-bottom: solid silver 1px ;
+}
+.message *{
+    margin-left: 15px;
+}
+.message p:nth-of-type(1){
+    font-weight: bold;
+    font-size: 15px;
+    width: 8vw;
+}
